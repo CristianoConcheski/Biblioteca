@@ -1,0 +1,65 @@
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 13px;
+    -fx-background-color: #f4f1ea;
+    -fx-accent: #2f5d50;
+    -fx-focus-color: #2f5d50;
+    -fx-faint-focus-color: #2f5d5033;
+}
+
+.login-fundo {
+    -fx-background-color: linear-gradient(to bottom right, #2f5d50, #1d3a32);
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 14, 0, 0, 3);
+}
+
+.titulo { -fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #1d3a32; }
+.subtitulo { -fx-text-fill: #6b6b6b; }
+.secao { -fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: #1d3a32; }
+.rotulo { -fx-font-size: 11px; -fx-font-weight: bold; -fx-text-fill: #6b6b6b; }
+.dica { -fx-text-fill: #8a8a8a; -fx-font-size: 11px; }
+.erro { -fx-text-fill: #b3261e; }
+
+.topo { -fx-background-color: #1d3a32; }
+.marca { -fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: white; }
+.ola { -fx-text-fill: #d6e4df; }
+
+.button {
+    -fx-background-radius: 6;
+    -fx-padding: 7 16 7 16;
+    -fx-cursor: hand;
+}
+.button.primario {
+    -fx-background-color: #2f5d50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.button.primario:hover { -fx-background-color: #3a7261; }
+.button.primario:disabled { -fx-opacity: 0.45; }
+.button.perigo {
+    -fx-background-color: #fbeceb;
+    -fx-text-fill: #b3261e;
+}
+.button.perigo:hover { -fx-background-color: #f5d3d0; }
+
+.text-field, .password-field, .combo-box-base, .spinner .text-field {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
+
+.table-view .column-header-background { -fx-background-color: #e8e3d6; }
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #e8e3d6;
+    -fx-font-weight: bold;
+}
+.table-row-cell:selected { -fx-background-color: #cfe3dc; }
+.table-row-cell:selected .text { -fx-fill: #1d3a32; }
+
+.status-atrasado { -fx-text-fill: #b3261e; -fx-font-weight: bold; }
+.status-devolvido { -fx-text-fill: #6b6b6b; }
+
+.tab-pane > .tab-header-area { -fx-padding: 6 0 0 12; }
